@@ -14,6 +14,6 @@ export default function Docs({
   } else if (params.slug?.length === 1) {
     return <h1>Docs Page on feature {params.slug[0]}</h1>;
   } else {
-    return <h1>Docs Page</h1>
+    return <h1>Docs Page</h1>;
   }
 }
